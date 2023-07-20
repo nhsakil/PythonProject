@@ -1,0 +1,14 @@
+From fhakkak@gmail.com
+From fffd@gmail.com
+From assasa@gmail.com
+From asssa@gmail.com
+From fdfdd@gmail.com
+Okay, so now we know how to open a file.
+Now we have to learn how to read through the file, a
+nd it couldn't be easier, it really couldn't be easier.
+It's almost at the point where you probably would have guessed it if I didn't tell you.
+Well, so xfile. remember, is not the data, it's a way to get to the data.
+It's a sequence. Well, we already have a loop, the determinant loop, the for loop,
+and all you do is you put the handle here. Now this is not the same as putting a string there,
+the for loop is smart. This is some kind of a sequence of things. So a file handle to the for
+loop looks like a sequence of lines. It's a sequence of lines. So again, the for loop is
