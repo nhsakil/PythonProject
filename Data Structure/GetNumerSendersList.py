@@ -10,12 +10,20 @@ for email in emailList:
 
 listofmail = dict()
 for line in handle:
-    if line.startswith("From "):
-        words = line.strip().split()
-        for mail in words:
-            print(mail)
+    wordslist = line.strip().split()
+    for word in wordslist:
+        listofmail[word] = listofmail.get(word,0)+1
 
 print(listofmail)
+
+largest = -1
+theword = None
+for key,value in listofmail.items():
+    if value> largest:
+        largest = value
+        theword = key
+print(theword, largest)
+
 bigCount = None
 bigWord = None
 for word,count in numerofSenders.items():
