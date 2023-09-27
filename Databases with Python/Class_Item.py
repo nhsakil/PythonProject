@@ -13,3 +13,8 @@ an.party()
 
 print("Type", type(an))
 print("Dir", dir(an))
+
+x = 0
+for value in range(5):
+    x = value+x
+print(x)
